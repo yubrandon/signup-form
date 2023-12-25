@@ -9,7 +9,33 @@ body {
     display:flex;
     flex-direction:row;
     justify-content:center;
-    background-color:#262e20;
+    background-color:#21271c;
+}
+
+.logo {
+    width:30%;
+    position:absolute;
+    background-color:rgb(0,0,0,0.5);
+    color:white;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    gap:2rem;
+    font-size:84px;
+    border:0;
+
+    max-height:150px;
+    max-width:25%;
+
+    top:25%;
+    left:16.4%;
+}
+
+.odin {
+    height:8rem;
+    width:6rem;
 }
 
 h3, h4 {
@@ -22,7 +48,7 @@ h4 {
 
 .cover {
     object-fit:cover;
-    max-width:30%;
+    max-width:25%;
     height:100%;
 }
 
